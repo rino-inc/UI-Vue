@@ -1,22 +1,19 @@
 <template>
-<h1 id="greetings">Hello! vue</h1>
+<h1 id="greetings">Hi! vue</h1>
 </template>
 
 
 <script>
 
 export default {
-  
-  name: 'Hello',
-
   data: () => ({
-    name: 'John Doe'
+    name: 'John Hi'
   })
 };
 </script>
 
 <style lang="scss">
 #greetings {
-  color: chocolate;
+  color: hotpink;
 }
 </style>
